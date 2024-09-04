@@ -25,7 +25,7 @@ website: ""
 #### ---Blöt(are)
 - Smör till formen
 - 2 ägg
-
+- vispgrädde till serveringen
 
 
 ---
