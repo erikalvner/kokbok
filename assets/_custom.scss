@@ -1,0 +1,54 @@
+/* You can add custom styles here. */
+
+// @import "plugins/numbered";
+
+
+.column{
+  justify-content: center;
+  text-align: center;
+  align-content:center;
+
+}
+
+.title{
+  margin:0;
+  padding:0;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-content:center;
+
+}
+
+.is-1{
+  margin:0;
+  padding-top:5%;
+  padding-bottom:0;
+  display: flex;
+
+
+}
+
+.tag{
+  margin-left:15%;
+  margin-right:15%;
+  display:flex;
+}
+
+.columntags{
+  display:table;
+}
+
+
+.padder{
+  padding:10%;
+}
+
+.is-round{
+  border-radius:10px;
+}
+
+.content{
+  padding-left: 15%;
+  padding-right:15%;
+}

@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en" class="has-navbar-fixed-top"> 
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8" />
+  <title>
+    Matildas &amp; Eriks recept 
+  </title>
+  <meta name="author" content="" />
+  <meta name="description" content="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="apple-touch-icon" sizes="180x180" href="//localhost:1313//apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="//localhost:1313//favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="//localhost:1313//favicon-16x16.png" />
+  <link rel="manifest" href="//localhost:1313//site.webmanifest" />
+  <link rel="stylesheet" href="//localhost:1313//css/bulma.min.css" />
+  <link rel="stylesheet" href="//localhost:1313//css/fontawesome-all.css" />
+  
+  <link rel="stylesheet" href="/main.min.cbd7550c98d1a94f7d9eb13437ae5721d919a65106eb3432aa3eec49bf690ef2.css" integrity="sha256-y9dVDJjRqU99nrE0N65XIdkZplEG6zQyqj7sSb9pDvI=" crossorigin="anonymous">
+  <script defer src="//localhost:1313//js/flexsearch.min.js"></script>
+  <script defer src="/en.search.min.7904e20ad7e1f3229b74c1dc3ca7638fcd874a39ff2ece725172565f2e1ee6f8.js" integrity="sha256-eQTiCtfh8yKbdMHcPKdjj82HSjn/Ls5yUXJWXy4e5vg=" crossorigin="anonymous"></script>
+</head>
+<body><nav
+  class="navbar is-transparent is-fixed-top"
+  role="navigation"
+  aria-label="main navigation"
+>
+  <div class="navbar-brand">
+    <a class="navbar-item" href="//localhost:1313/">
+      
+      <b class="title is-3">Matildas &amp; Eriks recept</b>
+    </a>
+  </div>
+</nav>
+<main class="main" role="main"> 
+<div class="section">
+  <article class="container box">
+    <header>
+      <div class="columns is-flex is-vcentered">
+        <div class="column is-2 p-5">
+          
+        </div>
+        <div class="column">
+          <h1 class="title is-1"></h1>
+            
+          <span>
+               
+            <i class="fas fa-star"></i>
+            
+            <i class="fas fa-star"></i>
+            
+            <i class="fas fa-star"></i>
+            
+            <i class="fas fa-star"></i>
+            
+            <i class="fas fa-star"></i>
+            
+          </span>
+        </div>
+      </div>
+      <div style="margin-top: 1em">
+        
+      </div>
+    </header>
+    <div class="content" style="margin-top: 1em"><!-- raw HTML omitted -->
+<ul>
+<li><a href="#1-requirements">1. Requirements</a></li>
+<li><a href="#2-installation">2. Installation</a>
+<ul>
+<li><a href="#21-install-as-git-module">2.1. Install as git module</a></li>
+<li><a href="#22-install-as-hugo-module">2.2. Install as hugo module</a></li>
+</ul>
+</li>
+<li><a href="#3-configuration--customization">3. Configuration &amp; Customization</a>
+<ul>
+<li><a href="#31-site-configuration">3.1. Site configuration</a></li>
+<li><a href="#32-customization">3.2. Customization</a></li>
+</ul>
+</li>
+<li><a href="#4-contributing">4. Contributing</a></li>
+</ul>
+<p>Credits:</p>
+<ul>
+<li>Highly inspired by <a href="https://github.com/rametta/recipe-book">Recipe-Book</a></li>
+<li>Images from <a href="https://freepik.com/">Freepik</a></li>
+</ul>
+<h2 id="1-requirements">1. Requirements</h2>
+<ul>
+<li>Hugo extended version.</li>
+</ul>
+<h2 id="2-installation">2. Installation</h2>
+<h3 id="21-install-as-git-module">2.1. Install as git module</h3>
+<ul>
+<li>Navigate to your hugo project root and run:</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git submodule add https://github.com/ntk148v/hugo-cuisine-book themes/cuisine-book
+</span></span></code></pre></div><ul>
+<li>Run hugo (or set theme = &ldquo;cuisine-book&rdquo;/theme: hugo-book in configuration file)</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo server --minify --theme cuisine-book
+</span></span></code></pre></div><h3 id="22-install-as-hugo-module">2.2. Install as hugo module</h3>
+<p>You can also add this theme as a Hugo module instead of a git submodule.</p>
+<ul>
+<li>Start with initializing hugo modules, if not done yet:</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo mod init github.com/repo/path
+</span></span></code></pre></div><ul>
+<li>Navigate to your hugo project root and add [module] section to <code>config.toml</code>:</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#f92672">[</span>module<span style="color:#f92672">]</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">[[</span>module.imports<span style="color:#f92672">]]</span>
+</span></span><span style="display:flex;"><span>path <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;github.com/ntk148v/hugo-cuisine-book&#39;</span>
+</span></span></code></pre></div><ul>
+<li>Load/update the theme module and run hugo:</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo mod get -u
+</span></span><span style="display:flex;"><span>hugo server --minify
+</span></span></code></pre></div><h2 id="3-configuration--customization">3. Configuration &amp; Customization</h2>
+<h3 id="31-site-configuration">3.1. Site configuration</h3>
+<ul>
+<li>There are a few configuration options that you can add to your <code>config.toml</code> file.</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-toml" data-lang="toml"><span style="display:flex;"><span><span style="color:#75715e"># Your base url</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">baseURL</span> = <span style="color:#e6db74">&#34;http://localhost/my-title&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Your page title</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">title</span> = <span style="color:#e6db74">&#34;my-title&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">theme</span> = <span style="color:#e6db74">&#34;cuisine-book&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># (Optional) Set this to true to enable Author.</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">enableGitInfo</span> = <span style="color:#66d9ef">true</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>[<span style="color:#a6e22e">params</span>]
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">author</span> = <span style="color:#e6db74">&#34;Your Name&#34;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">description</span> = <span style="color:#e6db74">&#34;Describe about you&#34;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e"># (Optional) Your logo in the header navbar which has to be stored in static folder.</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e"># If the logo is /static/logo.png then the path would be &#39;logo.png&#39;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">logo</span> = <span style="color:#e6db74">&#34;logo.png&#34;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e"># (Optional) Enable comments template on pages</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e"># By default partials/comments.html includes Disqus template</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e"># See https://gohugo.io/content-management/comments/#configure-disqus</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e"># Can be overwritten by same param in page frontmatter</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">comment</span> = <span style="color:#66d9ef">true</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e"># Set source repository location.</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">repo</span> = <span style="color:#e6db74">&#39;https://github.com/ntk148v/mammam&#39;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e"># Enable &#39;Edit&#39; links.</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e"># Disabled by default. Uncomment to enable. Requires &#39;repo&#39; param.</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e"># Path must point to the site directory.</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">editpath</span> = <span style="color:#e6db74">&#39;edit/master&#39;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e"># Enable &#39;Add&#39; links.</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e"># Disabled by default. Uncomment to enable. Requires &#39;repo&#39; param.</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e"># Path must point to the site directory.</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">newpath</span> = <span style="color:#e6db74">&#39;new/master&#39;</span>
+</span></span></code></pre></div><h3 id="32-customization">3.2. Customization</h3>
+<ul>
+<li>Extra customization:</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>File</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>static/favicon.png</code></td>
+<td>Override default favicon</td>
+</tr>
+<tr>
+<td><code>assets/_custom.scss</code></td>
+<td>Customize or override scss styles</td>
+</tr>
+<tr>
+<td><code>assets/_fonts.scss</code></td>
+<td>Replace default font with custom fonts (e.g. local files or remote like google fonts)</td>
+</tr>
+<tr>
+<td><code>layouts/partials/comments.html</code></td>
+<td>Override comments.html template</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>For example, you want to change default site&rsquo;s background.
+<ul>
+<li>Add new background to <code>static/</code>, named it as <code>background.png</code>.</li>
+<li>Add <code>assets/_custom.scss</code></li>
+</ul>
+</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-scss" data-lang="scss"><span style="display:flex;"><span><span style="color:#f92672">body</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">background-image</span><span style="color:#f92672">:</span> <span style="color:#e6db74">url(&#34;background.png&#34;)</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h2 id="4-contributing">4. Contributing</h2>
+<ul>
+<li>Fork it.</li>
+<li>Create your feature branch (<code>git checkout -b my-new-feature</code>).</li>
+<li>Commit your changes (<code>git commit -am 'Add some feature'</code>).</li>
+<li>Push to the branch (<code>git push origin my-new-feature</code>).</li>
+<li>Create new Pull Request.</li>
+</ul>
+</div>
+
+  </article>
+</div></main><footer class="footer is-fixed-bottom">
+  <div class="content has-text-centered">
+    <p>
+      <a href="https://github.com/ntk148v/hugo-cuisine-book"><strong>Hugo Cuisine Book</strong></a> by
+      <a href="https://ntk148v.github.io">Kien Nguyen Tuan</a>. The source
+      code is licensed
+      <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The
+      website content is licensed
+      <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/"
+        >CC BY NC SA 4.0</a
+      >.
+    </p>
+  </div>
+</footer>
+</body>
+</html>

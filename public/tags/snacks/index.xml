@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Snacks on Matildas &amp; Eriks recept</title>
+    <link>//localhost:1313/tags/snacks/</link>
+    <description>Recent content in Snacks on Matildas &amp; Eriks recept</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 04 Sep 2024 13:35:58 +0200</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/snacks/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SOLSKENSSMOOTHIE</title>
+      <link>//localhost:1313/posts/solskenssmoothie/</link>
+      <pubDate>Wed, 04 Sep 2024 13:35:58 +0200</pubDate>
+      <guid>//localhost:1313/posts/solskenssmoothie/</guid>
+      <description> Ingredienser &amp;mdash;Frukt &amp;amp; grönt 1 mango kan bytas ut mot 3 deciliter fryst mango 1 citron ½ gram saffran 1 nypa vaniljpulver &amp;mdash;Animaliskt 3 deciliter yoghurt kan bytas ut mot kokosmjölk Beredning Pressa en citron och riv lite av skalet med zestjärn. Blanda alla ingredienser i en mixer och mixa. </description>
+    </item>
+  </channel>
+</rss>

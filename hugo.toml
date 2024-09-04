@@ -1,0 +1,4 @@
+baseURL = '/'
+languageCode = 'sv-se'
+title = 'matildas & eriks recept-bok'
+theme = 'cuisine-book'
