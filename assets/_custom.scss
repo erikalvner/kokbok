@@ -85,13 +85,13 @@
 
 .recipe-card-title {
   font-size: 1.05rem;
-  font-weight: 500;
+  font-weight: 1500;
   margin-bottom: 0.25rem;
   color: #363636;
 }
 
 .recipe-card-stars {
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.25rem;
   font-size: 0.85rem;
 }
 
@@ -130,5 +130,8 @@
 }
 
 .fa-star {
-  margin-top: 25px;
+}
+
+.is-5 {
+  margin-bottom: 1rem;
 }
