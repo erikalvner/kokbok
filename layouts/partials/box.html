@@ -1,40 +1,41 @@
 {{ $baseUrl := .Site.BaseURL }}
-<a class="box" href="{{ .Permalink }}" aria-label="{{ .Title }}">
-  <div class="columns is-flex is-vcentered">
+<a class="box recipe-card-box" href="{{ .Permalink }}" aria-label="{{ .Title }}">
+  
+  <!-- Title -->
+  <div class="recipe-card-title">{{ .Title }}</div>
 
-    <div class="column">
-      <div>{{ .Title }}</div>
-      {{ if .GitInfo }} {{ with .GitInfo.AuthorName }}
-      <small><p class="has-text-info">{{ . }}</p></small>
-      {{ end }} {{ end }}
-      <span>
-        {{ $rating := 0 }} {{ if and (isset .Params "rating") (le .Params.rating
-        5) }} {{ $rating = .Params.rating }} {{ end }} {{ range $i := (seq
-        $rating) }}
-        <i class="fas fa-star has-text-warning"></i>
-        {{ end }} {{ range $i := (seq (sub 5 $rating)) }}
-        <i class="fas fa-star"></i>
-        {{ end }}
-      </span>
-    </div>
+  <!-- Stars -->
+  <div class="recipe-card-stars">
+    {{ $rating := 0 }} 
+    {{ if and (isset .Params "rating") (le .Params.rating 5) }} 
+      {{ $rating = .Params.rating }} 
+    {{ end }} 
+    {{ range $i := (seq $rating) }}
+      <i class="fas fa-star has-text-warning"></i>
+    {{ end }} 
+    {{ range $i := (seq (sub 5 $rating)) }}
+      <i class="fas fa-star has-text-grey-light"></i>
+    {{ end }}
   </div>
-  <div class="columns is-flex">
-    <div class="column">
-      {{ if .Params.description }}
-      <small class="has-text-grey">{{ .Params.description }}</small>
-      {{ end }}
-      <figure class="is-flex image padder">
-        {{ with .Resources.GetMatch .Params.featured_image }}
-        <img alt="{{ .Name }}" src="{{ .RelPermalink }}" />
-        {{ else }}
-        <img
-          alt="{{ .Params.featured_image }}"
-          class="is-round"
-          src="{{ .Params.featured_image | relURL }}"
-        />
-        {{ end }}
-      </figure>
-    </div>
-  </div>
+
+  <!-- Description (only if description parameter exists in front matter) -->
+  {{ with .Params.description }}
+    <p class="recipe-description has-text-grey"><small>{{ . | truncate 35 "..." }}</small></p>
+  {{ else }}
+    <!-- Empty spacer to keep height identical if no description -->
+    <p class="recipe-description-placeholder"></p>
+  {{ end }}
+
+  <!-- Image -->
+  <figure class="image recipe-card-image">
+    {{ with .Resources.GetMatch .Params.featured_image }}
+      <img alt="{{ .Name }}" src="{{ .RelPermalink }}" />
+    {{ else }}
+      <img
+        alt="{{ .Params.featured_image }}"
+        src="{{ .Params.featured_image | relURL }}"
+      />
+    {{ end }}
+  </figure>
 
 </a>

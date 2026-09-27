@@ -3,7 +3,7 @@ title: "Kladdkaka"
 date: "2024-09-04T20:03:21+02:00"
 tags: []
 featured_image: "/kladdkaka.jpg"
-description: ""
+description: "Klassisk kladdkaka. Krämig och lättbakad."
 rating: 5
 comment: true
 website: ""

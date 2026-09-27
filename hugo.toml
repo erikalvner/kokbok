@@ -1,4 +1,4 @@
 baseURL = 'https://kokbok.kallmoraberget.com/'
-languageCode = 'sv-se'
-title = 'matildas & eriks recept-bok'
+# languageCode = 'sv-se'
+title = 'matildas & eriks recept'
 theme = 'cuisine-book'

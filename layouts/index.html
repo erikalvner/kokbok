@@ -7,30 +7,16 @@
       </div>
     </div>
 
-
     {{- $paginator := .Paginate .Site.RegularPages }}
-    <div class="columns is-centered">
-      <div class="column">
-        {{ range $index, $page := $paginator.Pages }}
-          {{ if eq (mod $index 4) 0 }}{{ partial "box.html" $page }}{{ end }}
-        {{ end }}
-      </div>
-      <div class="column">
-        {{ range $index, $page := $paginator.Pages }}
-          {{ if eq (mod $index 4) 1 }}{{ partial "box.html" $page }}{{ end }}
-        {{ end }}
-      </div>
-      <div class="column">
-        {{ range $index, $page := $paginator.Pages }}
-          {{ if eq (mod $index 4) 2 }}{{ partial "box.html" $page }}{{ end }}
-        {{ end }}
-      </div>
-      <div class="column">
-        {{ range $index, $page := $paginator.Pages }}
-          {{ if eq (mod $index 4) 3 }}{{ partial "box.html" $page }}{{ end }}
-        {{ end }}
-      </div>
+    <!-- Removed 'is-centered' so row 2 starts from the left -->
+    <div class="columns is-multiline">
+      {{ range $paginator.Pages }}
+        <div class="column is-one-quarter">
+          {{ partial "box.html" . }}
+        </div>
+      {{ end }}
     </div>
+
     <div class="column is-centered">
       {{ template "_internal/pagination.html" . }}
     </div>

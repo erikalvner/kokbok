@@ -3,7 +3,7 @@ title: "Sticky chicken"
 date: "2024-09-04T14:57:36+02:00"
 tags: []
 featured_image: "stickychicken.jpg"
-description: "God kyckling på asiatiskt vis."
+description: "Fruktansvärt god kyckling på asiatiskt vis."
 rating: 4
 comment: true
 website: ""

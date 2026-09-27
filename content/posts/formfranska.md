@@ -3,7 +3,7 @@ title: "Formfranska (2 st)"
 date: "2024-09-04T15:48:36+02:00"
 tags: []
 featured_image: "formfranska.jpg"
-description: "Billigt och enkelt frukostbröd."
+description: "Perfekt frukostbröd - både billigt och enkelt."
 rating: 4
 comment: true
 website: ""

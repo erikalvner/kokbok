@@ -3,7 +3,7 @@ title: "Kebabgryta"
 date: "2024-09-04T11:35:58+02:00"
 tags: []
 featured_image: "kebabgryta.jpg"
-description: "Kebabgryta - som i skolan"
+description: "Lättlagad - precis som i skolan"
 rating: 4
 comment: true
 website: ""
@@ -30,8 +30,8 @@ website: ""
 
 #### ---Frukt & grönt
 - 1 butk hela/krossade tomater
-- 2 matskedat tomatpuré
-- 1 röd paprika
+- 2 matskedar tomatpuré
+- 1 röd paprika (eller en burk inlagd röd paprika)
 - 1 burk champinjoner
 - 1 rödlök
 

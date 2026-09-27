@@ -2,62 +2,133 @@
 
 // @import "plugins/numbered";
 
-
-.column{
+.column {
   justify-content: center;
   text-align: center;
-  align-content:center;
-
+  align-content: center;
 }
 
-.title{
-  margin:0;
-  padding:0;
+.title {
+  margin: 0;
+  padding: 0;
   display: flex;
   justify-content: center;
   text-align: center;
-  align-content:center;
-
+  align-content: center;
 }
 
-.is-1{
-  margin:0;
-  padding-top:5%;
-  padding-bottom:0;
+.is-1 {
+  margin: 0;
+  padding-top: 5%;
+  padding-bottom: 0;
   display: flex;
 }
-.section{
+
+.section {
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
-.box{
+.box {
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  padding-bottom: 100px;
 }
 
-.tag{
-  margin-left:15%;
-  margin-right:15%;
-  display:flex;
+.is-multiline {
 }
 
-.columntags{
-  display:table;
+.tag {
+  margin-left: 15%;
+  margin-right: 15%;
+  display: flex;
 }
 
-
-.padder{
-  padding:10%;
+.columntags {
+  display: table;
 }
 
-.is-round{
-  border-radius:10px;
+.padder {
+  padding: 0; /* Reset padder so images aren't squeezed inside cards */
 }
 
-.content{
+.is-round {
+  border-radius: 6px;
+}
+
+.content {
   padding-left: 15%;
-  padding-right:15%;
+  padding-right: 15%;
+}
+
+/* Force equal height and flex layout on recipe cards */
+.columns.is-multiline .column {
+  display: flex;
+}
+
+.columns.is-multiline .column > * {
+  width: 100%;
+}
+
+/* Recipe Card Box Styling */
+.recipe-card-box {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  padding: 1.25rem 1rem;
+}
+
+.recipe-card-title {
+  font-size: 1.05rem;
+  font-weight: 500;
+  margin-bottom: 0.25rem;
+  color: #363636;
+}
+
+.recipe-card-stars {
+  margin-bottom: 0.75rem;
+  font-size: 0.85rem;
+}
+
+.recipe-description {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-height: 2.6em; /* Equal height reservation for 2 lines */
+  margin-bottom: 0.75rem;
+  line-height: 1.3;
+}
+
+.recipe-description-placeholder {
+  min-height: 2.6em;
+  margin-bottom: 0.75rem;
+}
+
+/* Keep featured image size identical across cards */
+.recipe-card-image {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.recipe-card-image img {
+  height: 110px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.section {
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.fa-star {
+  margin-top: 25px;
 }

@@ -1,47 +1,59 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>matildas &amp; eriks recept-bok</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on matildas &amp; eriks recept-bok</description>
-    <generator>Hugo</generator>
-    <language>sv-se</language>
-    <lastBuildDate>Wed, 04 Sep 2024 20:03:21 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Kladdkaka</title>
-      <link>http://localhost:1313/posts/kladdkaka/</link>
-      <pubDate>Wed, 04 Sep 2024 20:03:21 +0200</pubDate>
-      <guid>http://localhost:1313/posts/kladdkaka/</guid>
-      <description>Ingredienser &amp;mdash;Torrvaror Ströbröd till formen 2½ deciliter strösocker 3 matskedar kakao 2 teskedar vaniljsocker 1½ deciliter vetemjöl 1 kryddmått salt &amp;mdash;Blöt(are) Smör till formen 2 ägg vispgrädde till serveringen Tillagning Sätt ugnen på 200 grader. Smörj och bröa en form. Smält smöret i kastrull och låt svalna lite. Vispa ihop ägg och socker. Blanda kakao, vaniljsocker, vetemjöl och salt i en butt. Häll sedan ner det i sockerröran. Häll på det smälta smöret lite i tag och rör om under tiden.</description>
-    </item>
-    <item>
-      <title>Formfranska (2 st)</title>
-      <link>http://localhost:1313/posts/formfranska/</link>
-      <pubDate>Wed, 04 Sep 2024 15:48:36 +0200</pubDate>
-      <guid>http://localhost:1313/posts/formfranska/</guid>
-      <description>Ingredienser &amp;mdash;Torrvaror 2 matskedar strösocker 2 teskedar salt 10-12 deciliter vetemjöl vallmofrön &amp;mdash;Blöta(re) varor 25 gram jäst 5 deciliter vatten 2 matskedar rapsolja 1 ägg Utförandet Smula ner jästen i en butt och tillsätt vatten. Rör om tills jästen har löst upp sig. Häll i socker, olja, salt och vetemjöl lite i taget. Rör ihop allt till en smidig deg och knåda kraftigt i några minuter. Glutentrådarna måste bli starka för att brödet skall bli luftigt.</description>
-    </item>
-    <item>
-      <title>Sticky chicken</title>
-      <link>http://localhost:1313/posts/stickychicken/</link>
-      <pubDate>Wed, 04 Sep 2024 14:57:36 +0200</pubDate>
-      <guid>http://localhost:1313/posts/stickychicken/</guid>
-      <description>Ingredienser &amp;mdash;Kryddning 1/2 deciliter kinesisk soja 1 vitlök 1 tumme ingefära 1/2 lime 1 kryddmått salt 1 kryddmått peppar 1 tesked dijonsenap &amp;mdash;Kött &amp;amp; animaliskt 1 hel kyckling 2 matskedar skysås &amp;mdash;Sås 2 deciliter sweet chilli-sås Tillagning Ställ ugnen på 200 grader. Stycka kycklingen och lägg den i ugnssäker form. Blanda kryddningen och vänd runt kycklingen i den. Krydda med salt och peppar. Ställ formen i mitten av ugnen. Täck den med aluminiumfolie efter en stund.</description>
-    </item>
-    <item>
-      <title>Solskenssmoothie</title>
-      <link>http://localhost:1313/posts/solskenssmoothie/</link>
-      <pubDate>Wed, 04 Sep 2024 13:35:58 +0200</pubDate>
-      <guid>http://localhost:1313/posts/solskenssmoothie/</guid>
-      <description> Ingredienser &amp;mdash;Frukt &amp;amp; grönt 1 mango kan bytas ut mot 3 deciliter fryst mango 1 citron ½ gram saffran 1 nypa vaniljpulver &amp;mdash;Animaliskt 3 deciliter yoghurt kan bytas ut mot kokosmjölk Beredning Pressa en citron och riv lite av skalet med zestjärn. Blanda alla ingredienser i en mixer och mixa. </description>
-    </item>
-    <item>
-      <title>Kebabgryta</title>
-      <link>http://localhost:1313/posts/kebabgryta/</link>
-      <pubDate>Wed, 04 Sep 2024 11:35:58 +0200</pubDate>
-      <guid>http://localhost:1313/posts/kebabgryta/</guid>
-      <description>Ingredienser &amp;mdash;Kryddor 2 kryddmått vitlökspulver 2 teskedar grillkrydda 2 kryddmått cayennepeppar 2 kryddmått paprikapulver 2 teskedar kebabkrydda &amp;mdash;Kött &amp;amp; animaliskt 1 paket kebabkött (750g-1kg) 3 deciliter grädde &amp;mdash;Frukt &amp;amp; grönt 1 butk hela/krossade tomater 2 matskedat tomatpuré 1 röd paprika 1 burk champinjoner 1 rödlök Tillagning Bryn kebabköttet och lägg det sedan i en gryta. Strimla paprikan och hacka löken. Lägg dem i grytan med köttet. Häll i en burk hela/krossade tomater i grytan och låt puttra i fem minuter.</description>
-    </item>
-  </channel>
+	<channel>
+		<title>matildas &amp; eriks recept</title>
+		<link>http://localhost:1313/</link>
+		<description>Recent content on matildas &amp; eriks recept</description>
+		<generator>Hugo</generator>
+		<language>en</language>
+		
+		
+		
+		
+			<lastBuildDate>Sun, 27 Sep 2026 11:35:58 +0200</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Kebabsås (vit)</title>
+				<link>http://localhost:1313/posts/vitkebabs%C3%A5s/</link>
+				<pubDate>Sun, 27 Sep 2026 11:35:58 +0200</pubDate>
+				<guid>http://localhost:1313/posts/vitkebabs%C3%A5s/</guid>
+				<description>&lt;hr&gt;&#xA;&lt;h2 id=&#34;ingredienser&#34;&gt;Ingredienser&lt;/h2&gt;&#xA;&lt;h4 id=&#34;bas&#34;&gt;&amp;mdash;Bas&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;2 dl turkisk yoghurt&lt;/li&gt;&#xA;&lt;li&gt;1 dl majonnäs&lt;/li&gt;&#xA;&lt;li&gt;½ dl Fanta&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h4 id=&#34;kryddor&#34;&gt;&amp;mdash;Kryddor&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;1 msk sambal oelek (eller sriracha)&lt;/li&gt;&#xA;&lt;li&gt;2 tsk kebabkrydda&lt;/li&gt;&#xA;&lt;li&gt;1 krm cayennepeppar&lt;/li&gt;&#xA;&lt;li&gt;salt &amp;amp; peppar&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;Originalreceptet hittar ni &lt;a href=&#34;https://www.arla.se/recept/kebabsas/&#34;&gt;här&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Kladdkaka</title>
+				<link>http://localhost:1313/posts/kladdkaka/</link>
+				<pubDate>Wed, 04 Sep 2024 20:03:21 +0200</pubDate>
+				<guid>http://localhost:1313/posts/kladdkaka/</guid>
+				<description>&lt;hr&gt;&#xA;&lt;h2 id=&#34;ingredienser&#34;&gt;Ingredienser&lt;/h2&gt;&#xA;&lt;h4 id=&#34;torrvaror&#34;&gt;&amp;mdash;Torrvaror&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Ströbröd till formen&lt;/li&gt;&#xA;&lt;li&gt;2½ deciliter strösocker&lt;/li&gt;&#xA;&lt;li&gt;3 matskedar kakao&lt;/li&gt;&#xA;&lt;li&gt;2 teskedar vaniljsocker&lt;/li&gt;&#xA;&lt;li&gt;1½ deciliter vetemjöl&lt;/li&gt;&#xA;&lt;li&gt;1 kryddmått salt&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h4 id=&#34;blötare&#34;&gt;&amp;mdash;Blöt(are)&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Smör till formen&lt;/li&gt;&#xA;&lt;li&gt;2 ägg&lt;/li&gt;&#xA;&lt;li&gt;vispgrädde till serveringen&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;tillagning&#34;&gt;Tillagning&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Sätt ugnen på 200 grader.&lt;/li&gt;&#xA;&lt;li&gt;Smörj och bröa en form.&lt;/li&gt;&#xA;&lt;li&gt;Smält smöret i kastrull och låt svalna lite.&lt;/li&gt;&#xA;&lt;li&gt;Vispa ihop ägg och socker.&lt;/li&gt;&#xA;&lt;li&gt;Blanda kakao, vaniljsocker, vetemjöl och salt i en butt. Häll sedan ner det i sockerröran.&lt;/li&gt;&#xA;&lt;li&gt;Häll på det smälta smöret lite i tag och rör om under tiden.&lt;/li&gt;&#xA;&lt;li&gt;Grädda mitt i ugnen i ungefär 10 minuter.&lt;/li&gt;&#xA;&lt;li&gt;Sikta floursocker över och servera med vispgrädde&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;hr&gt;</description>
+			</item>
+			<item>
+				<title>Formfranska (2 st)</title>
+				<link>http://localhost:1313/posts/formfranska/</link>
+				<pubDate>Wed, 04 Sep 2024 15:48:36 +0200</pubDate>
+				<guid>http://localhost:1313/posts/formfranska/</guid>
+				<description>&lt;hr&gt;&#xA;&lt;h2 id=&#34;ingredienser&#34;&gt;Ingredienser&lt;/h2&gt;&#xA;&lt;h4 id=&#34;torrvaror&#34;&gt;&amp;mdash;Torrvaror&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;2 matskedar strösocker&lt;/li&gt;&#xA;&lt;li&gt;2 teskedar salt&lt;/li&gt;&#xA;&lt;li&gt;10-12 deciliter vetemjöl&lt;/li&gt;&#xA;&lt;li&gt;vallmofrön&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h4 id=&#34;blötare-varor&#34;&gt;&amp;mdash;Blöta(re) varor&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;25 gram jäst&lt;/li&gt;&#xA;&lt;li&gt;5 deciliter vatten&lt;/li&gt;&#xA;&lt;li&gt;2 matskedar rapsolja&lt;/li&gt;&#xA;&lt;li&gt;1 ägg&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;utförandet&#34;&gt;Utförandet&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Smula ner jästen i en butt och tillsätt vatten. Rör om tills jästen har löst upp sig.&lt;/li&gt;&#xA;&lt;li&gt;Häll i socker, olja, salt och vetemjöl lite i taget.&lt;/li&gt;&#xA;&lt;li&gt;Rör ihop allt till en smidig deg och knåda kraftigt i några minuter. &lt;em&gt;Glutentrådarna måste bli starka för att brödet skall bli luftigt.&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;Låt degen jäsa under bakduk i ungefär 50 minuter.&lt;/li&gt;&#xA;&lt;li&gt;&lt;em&gt;Ställ ugnen på 250 grader.&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;Dela degen i två på ett mjölat bakbord.&lt;/li&gt;&#xA;&lt;li&gt;Forma degarna till två släta limpor och lägg dem sedan i varsin limp-form med bakplåtspapper som mellanskikt.&lt;/li&gt;&#xA;&lt;li&gt;Pensla bröden med smör och garnera dem med vallmofrön. Låt den sedan &lt;em&gt;jäsa i ungefär 30 minuter&lt;/em&gt;.&lt;/li&gt;&#xA;&lt;li&gt;Ställ in bröden längst ner i ugnen och sänk samtidigt temperaturen till 200 grader.&lt;/li&gt;&#xA;&lt;li&gt;Grädda bröden i cirka 30-35 minuter. Ta sedan ut dem och låt dem svalna i formarna.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;hr&gt;&#xA;&lt;hr&gt;&#xA;&lt;hr&gt;</description>
+			</item>
+			<item>
+				<title>Sticky chicken</title>
+				<link>http://localhost:1313/posts/stickychicken/</link>
+				<pubDate>Wed, 04 Sep 2024 14:57:36 +0200</pubDate>
+				<guid>http://localhost:1313/posts/stickychicken/</guid>
+				<description>&lt;hr&gt;&#xA;&lt;h2 id=&#34;ingredienser&#34;&gt;Ingredienser&lt;/h2&gt;&#xA;&lt;h4 id=&#34;kryddning&#34;&gt;&amp;mdash;Kryddning&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;1/2 deciliter kinesisk soja&lt;/li&gt;&#xA;&lt;li&gt;1 vitlök&lt;/li&gt;&#xA;&lt;li&gt;1 tumme ingefära&lt;/li&gt;&#xA;&lt;li&gt;1/2 lime&lt;/li&gt;&#xA;&lt;li&gt;1 kryddmått salt&lt;/li&gt;&#xA;&lt;li&gt;1 kryddmått peppar&lt;/li&gt;&#xA;&lt;li&gt;1 tesked dijonsenap&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h4 id=&#34;kött--animaliskt&#34;&gt;&amp;mdash;Kött &amp;amp; animaliskt&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;1 hel kyckling&lt;/li&gt;&#xA;&lt;li&gt;2 matskedar skysås&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h4 id=&#34;sås&#34;&gt;&amp;mdash;Sås&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;2 deciliter sweet chilli-sås&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;tillagning&#34;&gt;Tillagning&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Ställ ugnen på 200 grader.&lt;/li&gt;&#xA;&lt;li&gt;Stycka kycklingen och lägg den i ugnssäker form.&lt;/li&gt;&#xA;&lt;li&gt;Blanda kryddningen och vänd runt kycklingen i den. Krydda med salt och peppar.&lt;/li&gt;&#xA;&lt;li&gt;Ställ formen i mitten av ugnen. Täck den med aluminiumfolie efter en stund. Den skall vara inne i 30-35 minuter, eller när innertemperaturen intill benet är 82 grader.&lt;/li&gt;&#xA;&lt;li&gt;Servera med ris och valfri sallad.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;hr&gt;</description>
+			</item>
+			<item>
+				<title>Solskenssmoothie</title>
+				<link>http://localhost:1313/posts/solskenssmoothie/</link>
+				<pubDate>Wed, 04 Sep 2024 13:35:58 +0200</pubDate>
+				<guid>http://localhost:1313/posts/solskenssmoothie/</guid>
+				<description>&lt;hr&gt;&#xA;&lt;h2 id=&#34;ingredienser&#34;&gt;Ingredienser&lt;/h2&gt;&#xA;&lt;h4 id=&#34;frukt--grönt&#34;&gt;&amp;mdash;Frukt &amp;amp; grönt&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;1 mango (kan bytas ut mot 3 deciliter fryst mango)&lt;/li&gt;&#xA;&lt;li&gt;1 citron&lt;/li&gt;&#xA;&lt;li&gt;½ gram saffran&lt;/li&gt;&#xA;&lt;li&gt;1 nypa vaniljpulver&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h4 id=&#34;animaliskt&#34;&gt;&amp;mdash;Animaliskt&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;3 deciliter yoghurt&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;kan bytas ut mot kokosmjölk&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;beredning&#34;&gt;Beredning&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Pressa en citron och riv lite av skalet med zestjärn.&lt;/li&gt;&#xA;&lt;li&gt;Blanda alla ingredienser i en mixer och mixa.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;hr&gt;&#xA;&lt;hr&gt;</description>
+			</item>
+			<item>
+				<title>Kebabgryta</title>
+				<link>http://localhost:1313/posts/kebabgryta/</link>
+				<pubDate>Wed, 04 Sep 2024 11:35:58 +0200</pubDate>
+				<guid>http://localhost:1313/posts/kebabgryta/</guid>
+				<description>&lt;hr&gt;&#xA;&lt;h2 id=&#34;ingredienser&#34;&gt;Ingredienser&lt;/h2&gt;&#xA;&lt;h4 id=&#34;kryddor&#34;&gt;&amp;mdash;Kryddor&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;2 kryddmått vitlökspulver&lt;/li&gt;&#xA;&lt;li&gt;2 teskedar grillkrydda&lt;/li&gt;&#xA;&lt;li&gt;2 kryddmått cayennepeppar&lt;/li&gt;&#xA;&lt;li&gt;2 kryddmått paprikapulver&lt;/li&gt;&#xA;&lt;li&gt;2 teskedar kebabkrydda&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h4 id=&#34;kött--animaliskt&#34;&gt;&amp;mdash;Kött &amp;amp; animaliskt&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;1 paket kebabkött (750g-1kg)&lt;/li&gt;&#xA;&lt;li&gt;3 deciliter grädde&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h4 id=&#34;frukt--grönt&#34;&gt;&amp;mdash;Frukt &amp;amp; grönt&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;1 butk hela/krossade tomater&lt;/li&gt;&#xA;&lt;li&gt;2 matskedar tomatpuré&lt;/li&gt;&#xA;&lt;li&gt;1 röd paprika (eller en burk inlagd röd paprika)&lt;/li&gt;&#xA;&lt;li&gt;1 burk champinjoner&lt;/li&gt;&#xA;&lt;li&gt;1 rödlök&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;tillagning&#34;&gt;Tillagning&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Bryn kebabköttet och lägg det sedan i en gryta.&lt;/li&gt;&#xA;&lt;li&gt;Strimla paprikan och hacka löken. Lägg dem i grytan med köttet.&lt;/li&gt;&#xA;&lt;li&gt;Häll i en burk hela/krossade tomater i grytan och låt puttra i fem minuter. Koka upp en kastrull med vatten till riset.&lt;/li&gt;&#xA;&lt;li&gt;Tillsätt tomatpurén och kryddorna i grytan. Låt sjuda i 20 minuter. Halvvägs genom, när tio minuter har gått kan du tillsätta champinjonerna.&lt;/li&gt;&#xA;&lt;li&gt;Under tiden som grytan sjuder kan du koka riset.&lt;/li&gt;&#xA;&lt;li&gt;När grytan sjudit i 20 minuter tillsätter du grädden och rör om.&lt;/li&gt;&#xA;&lt;li&gt;Smaka av och krydda efter behov. Sen är grytan färdig.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;hr&gt;</description>
+			</item>
+	</channel>
 </rss>
